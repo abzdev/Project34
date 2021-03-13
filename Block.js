@@ -8,6 +8,7 @@ class Block {
     display() {
         push();
         rectMode(CENTER);
+        strokeWeight(3);
         rotate(this.body.angle);
         fill('red');
         rect(this.body.position.x,this.body.position.y,this.w,this.h);
